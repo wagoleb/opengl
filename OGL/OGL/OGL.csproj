@@ -47,6 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="libs\OpenGL.dll.config" />
+    <None Include="libs\Tao.FreeGlut.dll.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="libs\freeglut.dll" />
+    <Content Include="libs\OpenGL.dll" />
+    <Content Include="libs\Tao.FreeGlut.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
